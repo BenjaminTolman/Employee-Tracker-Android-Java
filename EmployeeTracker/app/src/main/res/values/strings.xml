@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Employee Tracker</string>
+    <string name="employee_number">Employee Number</string>
+    <string name="employee_status">Employee Status</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="hire_date">Hire Date</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="select_date">Select A Date</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="sort_spinner_items">
+        <item>Sort by Status</item>
+        <item>Sort by Number</item>
+    </string-array>
+
+    <string-array name="desc_spinner_items">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="date_preference">
+        <item>01/01/2021</item>
+        <item>January 1,2021</item>
+        <item>01.01.2021</item>
+    </string-array>
+
+    <string-array name="date_preference_values">
+        <item>Date Style 1v</item>
+        <item>Date Style 2v</item>
+        <item>Date Style 3v</item>
+    </string-array>
+
+</resources>

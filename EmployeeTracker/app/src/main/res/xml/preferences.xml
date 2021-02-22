@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Display Preferences">
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="Date Format"
+            android:summary="Changes the display format for an employee's hire date."
+            android:entries="@array/date_preference"
+            android:entryValues="@array/date_preference_values"
+            android:dialogTitle="List PReference Title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Data Management">
+
+
+        <Preference
+            android:key="dialog_preference"
+            android:fillColor="@color/white"
+            android:title="Delete All"
+            android:summary="Remove all saved employees from device."
+            android:dialogTitle="Dialogue Title" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>
